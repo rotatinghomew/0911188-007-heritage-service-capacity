@@ -1,0 +1,60 @@
+{
+  "definition": {
+    "name": "历史街区服务概览",
+    "subject": "到访记录",
+    "table": "entries",
+    "group": "gate",
+    "measure": "count"
+  },
+  "tables": {
+    "calendar": [
+      {
+        "day": "2026-05-01",
+        "open": 1,
+        "capacity": 120
+      },
+      {
+        "day": "2026-05-02",
+        "open": 1,
+        "capacity": 100
+      },
+      {
+        "day": "2026-05-03",
+        "open": 0,
+        "capacity": 0
+      }
+    ],
+    "surveys": [
+      {
+        "survey_id": "q1",
+        "day": "2026-05-01",
+        "rating": 4
+      },
+      {
+        "survey_id": "q2",
+        "day": "2026-05-02",
+        "rating": 5
+      }
+    ],
+    "entries": [
+      {
+        "entry_id": "g1",
+        "day": "2026-05-01",
+        "gate": "north",
+        "count": 68
+      },
+      {
+        "entry_id": "g2",
+        "day": "2026-05-01",
+        "gate": "river",
+        "count": 79
+      },
+      {
+        "entry_id": "g3",
+        "day": "2026-05-02",
+        "gate": "north",
+        "count": 74
+      }
+    ]
+  }
+}

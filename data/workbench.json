@@ -1,0 +1,148 @@
+{
+  "calendar": [
+    {
+      "day": "2026-05-01",
+      "slot": "am",
+      "gates": [
+        "east",
+        "west"
+      ],
+      "capacity": 4,
+      "closed_reason": null
+    },
+    {
+      "day": "2026-05-01",
+      "slot": "pm",
+      "gates": [],
+      "capacity": 0,
+      "closed_reason": "场地检修"
+    },
+    {
+      "day": "2026-04-24",
+      "slot": "am",
+      "gates": [
+        "east"
+      ],
+      "capacity": 5,
+      "closed_reason": null
+    }
+  ],
+  "gate_log": [
+    {
+      "id": "e1",
+      "day": "2026-05-01",
+      "slot": "am",
+      "gate": "east",
+      "token": "u1",
+      "direction": "in"
+    },
+    {
+      "id": "e2",
+      "day": "2026-05-01",
+      "slot": "am",
+      "gate": "west",
+      "token": "u1",
+      "direction": "in"
+    },
+    {
+      "id": "e3",
+      "day": "2026-05-01",
+      "slot": "am",
+      "gate": "east",
+      "token": null,
+      "direction": "in"
+    },
+    {
+      "id": "e4",
+      "day": "2026-05-01",
+      "slot": "am",
+      "gate": "east",
+      "token": "u3",
+      "direction": "in"
+    },
+    {
+      "id": "e5",
+      "day": "2026-05-01",
+      "slot": "am",
+      "gate": "west",
+      "token": "u1",
+      "direction": "out"
+    },
+    {
+      "id": "e6",
+      "day": "2026-04-24",
+      "slot": "am",
+      "gate": "east",
+      "token": "u4",
+      "direction": "in"
+    }
+  ],
+  "sample_frames": [
+    {
+      "id": "f1",
+      "day": "2026-05-01",
+      "slot": "am",
+      "gate": "east",
+      "invited": 3
+    },
+    {
+      "id": "f2",
+      "day": "2026-05-01",
+      "slot": "am",
+      "gate": "west",
+      "invited": 2
+    },
+    {
+      "id": "f3",
+      "day": "2026-04-24",
+      "slot": "am",
+      "gate": "east",
+      "invited": 2
+    }
+  ],
+  "responses": [
+    {
+      "id": "s1",
+      "frame": "f1",
+      "token": "u1",
+      "group": "first_visit"
+    },
+    {
+      "id": "s2",
+      "frame": "f2",
+      "token": "u1",
+      "group": "first_visit"
+    },
+    {
+      "id": "s3",
+      "frame": "f3",
+      "token": "u4",
+      "group": "returning"
+    }
+  ],
+  "bookings": [
+    {
+      "id": "b1",
+      "day": "2026-05-01",
+      "slot": "am",
+      "token": "u2",
+      "state": "reserved"
+    },
+    {
+      "id": "b2",
+      "day": "2026-05-01",
+      "slot": "am",
+      "token": "u3",
+      "state": "attended"
+    }
+  ],
+  "comparisons": [
+    {
+      "before": "2026-04-24",
+      "after": "2026-05-01",
+      "after_slot": "am",
+      "before_slot": "am",
+      "event": "craft-walk"
+    }
+  ]
+}
